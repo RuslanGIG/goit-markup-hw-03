@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -19,33 +19,33 @@
   </head>
   <body>
     <!--Шапка-->
-    <header class="page-header">
+    <header class="header">
       <div class="container flex-header">
-        <nav class="page-nav flex-header">
-          <a class="logo link logo-header" href="./index.html"
+        <nav class="nav">
+          <a class="logo link" href="./index.html"
             ><span class="span-logo">Web</span>Studio</a
           >
-          <ul class="menu list flex-header">
+          <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Studio</a>
+              <a class="menu-list link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+              <a class="menu-list link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="">Contacts</a>
+              <a class="menu-list link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <!--контакти-->
-        <ul class="list flex-header list-contact">
-          <li class="menu-item">
-            <a class="contact link" href="mailto:info@devstudio.com"
+        <ul class="header-contact list">
+          <li class="contact-item">
+            <a class="contact-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="menu-item">
-            <a class="contact link" href="tel:+110001111111"
+          <li class="contact-item">
+            <a class="contact-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -54,41 +54,44 @@
     </header>
     <main>
       <!--Hero-->
-      <section class="section-hero">
-        <div class="container hero">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="modal-button" type="button">Order Service</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
       <!--навички-->
-      <section class="section section-cont">
-        <div class="container section-cont">
+      <section class="about">
+        <div class="container">
           <h2 class="visually-hidden">Our qualities</h2>
-          <ul class="list flex-container">
-            <li class="item-list">
-              <h3 class="section-title">Strategy</h3>
-              <p class="section-text">
+          <ul class="about-list list">
+            <li class="about-item">
+              <h3 class="about-title">Strategy</h3>
+              <p class="about-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="item-list">
-              <h3 class="section-title">Punctuality</h3>
-              <p class="section-text">
+            <li class="about-item">
+              <h3 class="about-title">Punctuality</h3>
+              <p class="about-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="item-list">
-              <h3 class="section-title">Diligence</h3>
-              <p class="section-text">
+            <li class="about-item">
+              <h3 class="about-title">Diligence</h3>
+              <p class="about-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="item-list">
-              <h3 class="section-title">Technologies</h3>
-              <p class="section-text">
+            <li class="about-item">
+              <h3 class="about-title">Technologies</h3>
+              <p class="about-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -97,11 +100,11 @@
         </div>
       </section>
       <!--що ми робимо-->
-      <section class="section ">
+      <section class="work">
         <div class="container">
-          <h2 class="title">What are we doing</h2>
-          <ul class="list flex-container">
-            <li class="item-list">
+          <h2 class="work-title">What are we doing</h2>
+          <ul class="work-list list">
+            <li class="work-item">
               <img
                 src="./images/Rectangle1.jpg"
                 alt="computer monitor"
@@ -109,7 +112,7 @@
                 height="300"
               />
             </li>
-            <li class="item-list">
+            <li class="work-item">
               <img
                 src="./images/Rectangle2.jpg"
                 alt="smartphone"
@@ -117,7 +120,7 @@
                 height="300"
               />
             </li>
-            <li class="item-list">
+            <li class="work-item">
               <img
                 src="./images/Rectangle3.jpg"
                 alt="smartphone with laptop"
@@ -129,57 +132,49 @@
         </div>
       </section>
       <!--our-team-->
-      <section class="section section-team">
+      <section class="team-section">
         <div class="container">
-          <h2 class="title">Our Team</h2>
-          <ul class="list flex-container">
-            <li class="our-list">
+          <h2 class="team-title">Our Team</h2>
+          <ul class="team-list list">
+            <li class="team-item">
               <img
                 src="./images/Mark-Guerrero.jpg"
                 alt="Mark-Guerrero"
                 width="264"
                 height="260"
               />
-              <div class="team-card">
-                <h3 class="section-title">Mark Guerrero</h3>
-                <p class="section-text">Product Designer</p>
-              </div>
+              <h3 class="title-team">Mark Guerrero</h3>
+              <p class="team-text">Product Designer</p>
             </li>
-            <li class="our-list">
+            <li class="team-item">
               <img
                 src="./images/Tom-Ford.jpg"
                 alt="Tom-Ford"
                 width="264"
                 height="260"
               />
-              <div class="team-card">
-                <h3 class="sectour-list">Tom Ford</h3>
-                <p class="section-text">Frontend Developer</p>
-              </div>
+              <h3 class="title-team">Tom Ford</h3>
+              <p class="team-text">Frontend Developer</p>
             </li>
-            <li class="our-list">
+            <li class="team-item">
               <img
                 src="./images/Camila-Garcia.jpg"
                 alt="Camila-Garcia"
                 width="264"
                 height="260"
               />
-              <div class="team-card">
-                <h3 class="section-title">Camila Garcia</h3>
-                <p class="section-text">Marketing</p>
-              </div>
+              <h3 class="title-team">Camila Garcia</h3>
+              <p class="team-text">Marketing</p>
             </li>
-            <li class="our-list">
+            <li class="team-item">
               <img
                 src="./images/Daniel-Wilson.jpg"
                 alt="Daniel-Wilson"
                 width="264"
                 height="260"
               />
-              <div class="team-card">
-                <h3 class="section-title">Daniel Wilson</h3>
-                <p class="section-textf">UI Designer</p>
-              </div>
+              <h3 class="title-team">Daniel Wilson</h3>
+              <p class="team-text">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -187,8 +182,8 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo-footer link logo" href="./index.html"
-          ><span class="span-logo">Web</span>Studio</a
+        <a class="logo-footer link" href="./index.html"
+          ><span class="footer-span-logo">Web</span>Studio</a
         >
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
